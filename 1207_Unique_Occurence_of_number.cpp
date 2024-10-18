@@ -3,6 +3,7 @@ using namespace std;
 
 bool isOccurenceUnique(vector<int>& arr, int size) {
     unordered_map<int, int> freqMap;
+    // unordered_map<int, int> freqMap;
 
     // Calculate the frequency of each element
     for (int i = 0; i < size; i++) {
